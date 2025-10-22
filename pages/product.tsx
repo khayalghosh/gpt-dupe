@@ -81,7 +81,7 @@ export default function Product() {
 
             {/* Subscription Protection */}
             <Protect
-                plan="gpt-dupe"
+                plan="premium_subscription"
                 fallback={
                     <div className="container mx-auto px-4 py-12">
                         <header className="text-center mb-12">
